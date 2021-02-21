@@ -33,3 +33,20 @@ monitors:
     url: 'https://stendhal.ai'
     method: GET
     expectStatus: 200
+
+  - id: matic-gasstation
+    name: Matic Gas Station
+    url: 'https://gasstation-mainnet.matic.network/'
+    method: GET
+    expectStatus: 200
+  - id: matic-explorer
+    name: Mainnet Matic Explorer
+    url: 'https://explorer-mainnet.maticvigil.com/'
+    method: GET
+    expectStatus: 200
+  - id: matic-rpc
+    name: Matic RPC
+    description: Official Matic.Network RPC Nodes powered by BlockVigil
+    url: 'https://rpc.maticvigil.com/'
+    method: GET
+    expectStatus: 200
