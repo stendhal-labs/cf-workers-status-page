@@ -123,3 +123,6 @@ The Workers Free plan includes limited KV usage, but the quota is sufficient for
 Stay tuned for more features coming in, like leveraging the fact that CRON instances are scheduled around the world during the day
 so we can monitor the response times. However, we will most probably wait for the [Durable Objects](https://blog.cloudflare.com/introducing-workers-durable-objects/) to be in open beta
 as they are better fit to reliably store such info.
+
+## Update from upstream repo 
+`git pull https://github.com/eidam/cf-workers-status-page main`
