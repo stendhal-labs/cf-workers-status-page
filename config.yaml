@@ -1,6 +1,6 @@
 settings:
   title: 'Status Page'
-  url: 'https://status.stendhal.ai'
+  url: 'https://status.street.bio'
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -27,9 +27,16 @@ monitors:
     method: GET
     expectStatus: 200
   
+  - id: wallkanda-website
+    name: Wallkanda Website
+    description: 'The Web3 toolbox for Street-artists.'
+    url: 'https://wallkanda.art'
+    method: GET
+    expectStatus: 200
+
   - id: stendhal-website
     name: Stendhal Website
-    description: 'The Web3 toolbox for Street-artists.'
+    description: 'The company behind the Web3 toolbox for Street-artists.'
     url: 'https://stendhal.ai'
     method: GET
     expectStatus: 200
